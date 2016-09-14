@@ -1,12 +1,12 @@
-## Mutexor
+# Mutexor
 
-# install
+## install
 
 ```shell
 npm install --save mutexor
 ```
 
-# how to use it
+## how to use it
 
 ```javascript
 const Mutex = require('mutexor');
@@ -19,7 +19,7 @@ for (let i = 0; i < 10000; i++) {
         // called when mutex is locked
         fs.writeFile('myFile', `myData${i}`, function (err) {
             console.log(i);
-            unlock();
+            unlock(); // unlock mutex
         });
     })
     .then(function () {
