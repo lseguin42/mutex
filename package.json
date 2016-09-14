@@ -1,0 +1,20 @@
+{
+  "name": "mutexor",
+  "version": "0.1.0",
+  "description": "Create mutex in javascript",
+  "main": "mutexor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mutex",
+    "lock",
+    "async",
+    "unlock"
+  ],
+  "author": "Lionel Seguin <lseguin@student.42.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6"
+  }
+}
